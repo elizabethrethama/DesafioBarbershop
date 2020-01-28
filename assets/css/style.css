@@ -8,6 +8,7 @@ nav {
 
 .logo {
   width: 50%;
+  text-align: right;
 }
 
 .imagenav {
@@ -18,10 +19,23 @@ nav {
   font-family: "Roboto", sans-serif;
 }
 
+.fecha {
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  font-size: 12pt;
+  margin-left: 55px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
 .texto1 {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 3pt;
-  font-size: 10pt;
+  letter-spacing: 2pt;
+  text-align: justify;
+  font-size: 11pt;
+  margin-left: 55px;
+  margin-right: 55px;
+  line-height: 30pt;
 }
 
 .blog {
