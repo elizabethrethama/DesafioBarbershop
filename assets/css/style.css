@@ -1,3 +1,35 @@
+nav {
+  background-color: #121619;
+}
 
+.texto1 {
+  height: 2080px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.imagenav {
+  width: 100%;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+}
+
+.texto1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3pt;
+  font-size: 10pt;
+}
+
+.blog {
+  color: #E56353;
+}
+
+.fecha {
+  font-family: "Playfair Display", serif;
+}
 
 /*# sourceMappingURL=style.css.map */
