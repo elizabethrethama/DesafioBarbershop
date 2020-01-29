@@ -9,8 +9,8 @@
   text-align: right;
 }
 
-.imagenav   {
- width: 100%;
+.texto-encima   {
+  display: inline-flex;
 }
 
 .botoncompartir   {
@@ -35,4 +35,8 @@
   text-align: center;
   margin-top: 55px;
   margin-bottom: 55px;
+}
+
+img      {
+  border-radius: 50%;
 }
