@@ -9,16 +9,11 @@
   position: static;
 }
 
-h1 {
+.tituloimagen {
   position: absolute;
-  z-index: 1;
   margin: 400px;
   text-align: center;
-
 }
-
-.custom-class {
-  display: none;
 
 .imagencabecera     {
   position: static;
@@ -47,27 +42,32 @@ border-radius: 60%;
 justify-content: center;
 }
 
+
 .paginacion   {
   margin-top: 55px;
   margin-bottom: 55px;
 }
 
-.logofooter   {
-  width: 20%;
-  text-align: center;
-  margin-top: 55px;
-  margin-bottom: 55px;
+.div-img img  {
+  width: 50%;
+  position: static;
 }
 
-.infocontacto   {
+@media (min-width: 768px) {
+  .columna2 {
+    text-align: center;
+  }
+}
 
+
+@media (min-width: 600px) {
+  .infocontacto {
+    visibility: hidden;
+
+  }
 }
 
 .paga   {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.pagination   {
-
 }
