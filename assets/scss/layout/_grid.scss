@@ -10,12 +10,19 @@
 }
 
 h1 {
-  position: static;
+  position: absolute;
   z-index: 1;
+  margin: 400px;
+  text-align: center;
+
 }
 
+.custom-class {
+  display: none;
+
 .imagencabecera     {
-  position: absolute;
+  position: static;
+  display: block;
   width: 100%;
 }
 
@@ -35,8 +42,9 @@ h1 {
   display: inline-block
 }
 
-.naomi  {
-
+.fotonaomi  {
+border-radius: 60%;
+justify-content: center;
 }
 
 .paginacion   {

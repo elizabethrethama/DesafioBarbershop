@@ -1,133 +1,18 @@
-nav {
-  background-color: #121619;
-}
+/* Error: expected "}".
+ *    ,
+ * 73 | }
+ *    |  ^
+ *    '
+ *   scss\layout\_grid.scss 73:2  @import
+ *   scss\style.scss 3:9          root stylesheet */
 
-footer {
-  background-color: #121619;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a    \2577 \a 73 \2502  }\d\a    \2502   ^\a    \2575 \a   scss\\layout\\_grid.scss 73:2  @import\a   scss\\style.scss 3:9          root stylesheet';
 }
-
-.twitternao, .webnao {
-  color: #D76c69;
-}
-
-.paga {
-  background-color: #E6E7E7;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.texto1 {
-  height: 100%;
-}
-
-.logo {
-  width: 50%;
-  text-align: right;
-  position: static;
-}
-
-h1 {
-  position: static;
-  z-index: 1;
-}
-
-.imagencabecera {
-  position: absolute;
-  width: 100%;
-}
-
-.botoncompartir {
-  margin-left: 55px;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  display: inline-block;
-  position: relative;
-}
-
-.comentartwitter {
-  position: relative;
-  margin-left: 55px;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  display: inline-block;
-}
-
-.paginacion {
-  margin-top: 55px;
-  margin-bottom: 55px;
-}
-
-.logofooter {
-  width: 20%;
-  text-align: center;
-  margin-top: 55px;
-  margin-bottom: 55px;
-}
-
-.paga {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-nav {
-  font-family: "Roboto", sans-serif;
-}
-
-.fecha {
-  font-family: "Playfair Display", serif;
-  text-align: left;
-  font-size: 12pt;
-  margin-left: 55px;
-  margin-top: 55px;
-  margin-bottom: 55px;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 900;
-  font-style: italic;
-  color: white;
-  font-size: 45pt;
-  margin-top: 100px;
-}
-
-.texto1 {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 2pt;
-  text-align: justify;
-  font-size: 11pt;
-  margin-left: 55px;
-  margin-right: 55px;
-  line-height: 30pt;
-}
-
-.blog {
-  color: #E56353;
-}
-
-.fecha {
-  font-family: "Playfair Display", serif;
-}
-
-.botoncompartir {
-  font-family: "Roboto", sans-serif;
-}
-
-.footer {
-  position: relative;
-  padding: 100px 450px;
-}
-
-.nombrenaomi {
-  font-family: "Playfair Display", serif;
-  font-size: 25pt;
-  font-style: italic;
-  font-weight: 900;
-}
-
-.twitternao, .webnao {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-}
-
-/*# sourceMappingURL=style.css.map */
