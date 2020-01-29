@@ -1,28 +1,42 @@
 
 .texto1   {
   height: 100%;
-
 }
 
 .logo   {
   width: 50%;
   text-align: right;
+  position: static;
 }
 
-.texto-encima   {
-  display: inline-flex;
+h1 {
+  position: static;
+  z-index: 1;
+}
+
+.imagencabecera     {
+  position: absolute;
+  width: 100%;
 }
 
 .botoncompartir   {
   margin-left: 55px;
   margin-top: 55px;
   margin-bottom: 55px;
+  display: inline-block;
+  position: relative;
 }
 
 .comentartwitter  {
+  position: relative;
   margin-left: 55px;
   margin-top: 55px;
   margin-bottom: 55px;
+  display: inline-block
+}
+
+.naomi  {
+
 }
 
 .paginacion   {
@@ -37,6 +51,15 @@
   margin-bottom: 55px;
 }
 
-img      {
-  border-radius: 50%;
+.infocontacto   {
+
+}
+
+.paga   {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pagination   {
+
 }
