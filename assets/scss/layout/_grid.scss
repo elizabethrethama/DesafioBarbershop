@@ -27,7 +27,7 @@
   margin-bottom: 55px;
   display: inline-block;
   position: relative;
-}
+  }
 
 .comentartwitter  {
   position: relative;
@@ -49,17 +49,10 @@ justify-content: center;
 }
 
 .div-img img  {
-  width: 50%;
+
   position: static;
 }
 
-@media screen (min-width: 600px)  {
-    .tituloimagen   {
-      text-align: center;
-      font-size: 20px;
-      
-    }
-}
 
 @media (min-width: 768px) {
   .columna2 {
@@ -68,14 +61,32 @@ justify-content: center;
 }
 
 
-@media (min-width: 600px) {
-  .infocontacto {
+@media (max-width: 800px) {
+  #infocontac {
+    display: none;
     visibility: hidden;
-
   }
 }
 
 .paga   {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+
+@media (max-width: 800px) {
+  #infornaomi {
+    text-align: center;
+
+  }
+}
+
+.btn  {
+  border-radius: 40px;
+  margin-right: -40px;
+}
+
+.footer    {
+height: 106px;
+
 }

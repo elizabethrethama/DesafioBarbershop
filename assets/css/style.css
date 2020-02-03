@@ -62,14 +62,38 @@ footer {
   margin-bottom: 55px;
 }
 
-.logofooter {
-  width: 20%;
+.div-img img {
   position: static;
 }
 
+@media (min-width: 768px) {
+  .columna2 {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #infocontac {
+    display: none;
+    visibility: hidden;
+  }
+}
 .paga {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  #infornaomi {
+    text-align: center;
+  }
+}
+.btn {
+  border-radius: 40px;
+  margin-right: -40px;
+}
+
+.footer {
+  height: 106px;
 }
 
 nav {
